@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="E:/Maven/repository/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.google.code.gson"/>
+			<attribute name="maven.artifactId" value="gson"/>
+			<attribute name="maven.version" value="2.3.1"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/cglib-3.2.6.jar"/>
+	<classpathentry kind="lib" path="lib/asm-6.0.jar"/>
+	<classpathentry kind="lib" path="lib/junit-4.10.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.35.jar"/>
+	<classpathentry kind="lib" path="lib/javaee.jar"/>
+	<classpathentry kind="lib" path="lib/amqp-client-5.1.2.jar" sourcepath="lib/amqp-client-5.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-log4j12-1.7.12.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.12.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
