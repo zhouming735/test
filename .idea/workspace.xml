@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16dfe4d1-efcc-4ec9-b2d9-f8db901052ee" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/lomen/classloader/Human.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/lomen/classloader/MyClassLoader.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/lomen/classloader/test.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test.iml" />
       <change beforePath="$PROJECT_DIR$/bin/cn/lomen/rabbitmq/rpc/RpcConsumer$1.class" afterPath="$PROJECT_DIR$/bin/cn/lomen/rabbitmq/rpc/RpcConsumer$1.class" />
       <change beforePath="$PROJECT_DIR$/bin/cn/lomen/rabbitmq/rpc/RpcConsumer.class" afterPath="$PROJECT_DIR$/bin/cn/lomen/rabbitmq/rpc/RpcConsumer.class" />
       <change beforePath="$PROJECT_DIR$/bin/cn/lomen/rabbitmq/rpc/RpcProducer$1.class" afterPath="$PROJECT_DIR$/bin/cn/lomen/rabbitmq/rpc/RpcProducer$1.class" />
@@ -243,12 +234,20 @@
       <option name="presentableId" value="Default" />
       <updated>1521164754956</updated>
       <workItem from="1521164771295" duration="1723000" />
-      <workItem from="1521424855142" duration="275000" />
+      <workItem from="1521424855142" duration="314000" />
     </task>
+    <task id="LOCAL-00001" summary="create project">
+      <created>1521425153778</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1521425153778</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1998000" />
+    <option name="totallyTimeSpent" value="2037000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -288,6 +287,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create project" />
+    <option name="LAST_COMMIT_MESSAGE" value="create project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
