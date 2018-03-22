@@ -19,6 +19,6 @@ public class Human {
     }
 
     public String toString() {
-        return "I am a people, my name is " + name;
+        return "I am a Human, my name is " + name;
     }
 }

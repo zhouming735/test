@@ -1,0 +1,16 @@
+1、什么是asm呢？asm是assembly的缩写，是汇编的称号，对于java而言，asm就是字节码级别的编程。
+ASM 是一个 Java 字节码操控框架。它能被用来动态生成类或者增强既有类的功能。ASM 可以直接产生二进制 class 文件，也可以在类被加载入 Java 虚拟机之前动态改变类行为。
+2、ASM框架中的核心类有以下几个：
+①  ClassReader:该类用来解析编译过的class字节码文件。
+②  ClassWriter:该类用来重新构建编译后的类，比如说修改类名、属性以及方法，甚至可以生成新的类的字节码文件。
+③  ClassVisitor:它将对它的方法调用委托给另一个ClassVisitor对象。
+③  Visitor:它将对它的方法调用委托给另一个Visitor对象。MethodMethod
+③  CodeVisitor:它将对它的方法调用委托给另一个CodeVisitor对象。
+
+3、ASM的解析方式类似于SAX解析XML文件，它综合运用了访问者模式、职责链模式、桥接模式等多种设计模式，相对于其他类似工具如BCEL、SERP、Javassist、CGLIB，它的最大的优势就在于其性能更高，其jar包仅30K
+4、ASM能干什么？ 分析一个类、从字节码角度创建一个类、修改一个已经被编译过的类文件
+5、ASM实际应用案例： spring aop、hibernate、cglib ，代码生成器等
+
+6、字节码增强技术主要有两种实现机制：
+一种是通过创建原始类的一个子类；
+另一种是很暴力的方式，直接去修改原先的class字节码。

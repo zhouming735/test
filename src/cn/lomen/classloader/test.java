@@ -5,7 +5,8 @@ public class test {
        MyClassLoader mcl = new MyClassLoader();
        Class<?> clazz = null;
        try {
-           clazz = Class.forName("cn.lomen.classloader.Human", true, mcl);
+           //clazz = Class.forName("Human", true, mcl);
+           clazz = Class.forName("cn.lomen.classloader.Human");
        } catch (ClassNotFoundException e) {
            e.printStackTrace();
        }
